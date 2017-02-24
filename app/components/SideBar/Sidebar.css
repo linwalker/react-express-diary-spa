@@ -1,0 +1,38 @@
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  border-left: 1px solid #14769a;
+  padding-left: 1rem;
+}
+
+.sidebar ul {
+  margin-left: 0.2rem;
+}
+
+.sidebar input {
+  border: 1px solid #14769a;
+  border-radius: 2px;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  width: 9.4rem;
+  padding-left: 0.2rem;
+  box-shadow: 0 0 2px gray;
+}
+
+.sidebar li a{
+  margin-right: 1rem;
+}
+
+.sidebar li a:hover {
+  text-decoration: underline;
+}
+
+.sidebar iframe {
+  width: 10.3rem;
+  border: none;
+}
+
+

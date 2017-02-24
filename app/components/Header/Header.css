@@ -1,0 +1,64 @@
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    content-justify: center;
+    margin-bottom: 3rem;
+}
+
+.header h1 {
+    width: 11rem;
+    margin: 2rem auto;
+    text-shadow: 0px 0px 1px black;
+    border: none;
+}
+
+.header h1:hover {
+    text-decoration: none;
+}
+
+.header ul {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header li,
+.header a {
+    color: black;
+}
+
+.header h1:hover,
+.header li:hover,
+.header a:hover {
+    cursor: pointer;
+    color: #14769a;
+}
+
+.login {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    margin-bottom: -2.55rem;
+}
+
+.login input {
+    background-color: #eeeeee;
+    border: 1px solid #14769a;
+    font-size: 0.8rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    padding-left: 0.2rem;
+    width: 10rem;
+    box-shadow: 0 0 2px gray;
+}
+
+.login input:focus {
+    box-shadow: 0 0 1px black;
+    border: 1px solid #eeeeee;
+}
+

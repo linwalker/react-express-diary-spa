@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    align-items: flex-start;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: 10px auto;
+    width: 60%;
+    flex: 1;
+}
+
+.content {
+    width: 40rem;
+    padding-right: 1rem;
+}
